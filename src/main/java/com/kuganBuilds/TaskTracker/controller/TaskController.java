@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
+@CrossOrigin(origins = "http://192.168.29.215:5505/")
 @RestController
 @RequestMapping("/api/tasks")
 public class TaskController {
